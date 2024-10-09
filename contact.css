@@ -1,0 +1,306 @@
+/* GENERAL */
+body{
+    margin: 0;
+    font-size: 16px;
+    overflow-x: hidden;
+    font-family: 'Montserrat';
+    
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul, li , ol {
+    list-style: none;
+}
+
+*, *::before , *::after {
+    box-sizing: border-box;
+}
+/* WRAPPER */
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* CONTAINER */
+
+.container{
+    max-width: 1420px;
+    margin: auto;
+    width: 100%;
+}
+.box-cont{
+    display: flex;
+  
+    height: 400px;
+    background-color: rgb(252, 85, 85);
+    border-radius: 15px;
+    color: white;
+    padding: 25px 50px;
+}
+
+.golov{
+    color: white;
+    text-decoration: none;
+    transition: 1.0s;
+}
+.golov:hover{
+    color: black;
+    
+}
+
+
+.Title{
+    margin-top: 70px;
+    font-size: 40px;
+    
+}
+
+.abyasnenie{
+    font-size: 20px;
+}
+
+.img-contact{
+    width: 550px;
+    height: 400px;
+}
+
+.telephone{
+    display: flex;
+    justify-content: space-between;
+
+    color: rgb(0, 0, 0);
+}
+.question-area{
+    margin-top: 20px;
+    width: 50%;
+    height: fit-content;
+    
+    
+    
+}
+
+.question{
+    box-shadow: 2px 5px 30px rgba(51, 51, 51, 0.5);
+    border-radius: 25px;
+    padding: 45px 45px 35px 35px;
+}
+
+.tel{
+    margin-top: 20px;
+
+    width: 40%;
+    height: fit-content;
+    border-radius: 25px;
+    box-shadow: 2px 5px 30px rgba(51, 51, 51, 0.5);
+    padding: 45px 45px 35px 35px;
+}
+
+
+.hquestion{
+    font-size: 24px;
+}
+
+a{
+    color: red;
+}
+
+svg{
+    
+    width: 20px;
+    height: 20px;
+}
+
+.text{
+    margin-top: 10px;
+}
+
+.zquestion{
+    font-size: 24px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vits{
+    margin-top:30px ;
+}
+
+input{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    width: 100%;
+    height: 48px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+input:focus{
+    border: 3px solid  red;
+    outline: none;
+}
+
+input::placeholder{
+   font-family: 'Montserrat';
+   padding-left: 15px;
+}
+
+.area{
+    font-family: 'Montserrat';
+    padding-left: 15px;
+    padding-top: 5px;
+    width: 100%;
+    height: 304px;
+    max-width:500px ;
+    max-height: 304px;
+    border-radius: 10px;
+    
+}
+
+.area:focus{
+    border: 3px solid  red;
+    outline: none;
+}
+
+
+.tel button{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.ent{
+    font-size: 16px;
+    margin-top:20px ;
+    margin-left: 130px;
+    font-family: 'Montserrat';
+    width: 220px;
+    height: 50px;
+    border: 0px solid;
+    border-radius: 50px;
+    background-color: rgb(247, 77, 77);
+    color: white;
+    transition: 0.9s;
+}
+
+
+.ent:hover{
+    transition: 0.9s;
+    scale: 1.2;
+}
+
+.social{
+    
+    
+    font-size: 22px;
+    margin-top: 20px;
+    box-shadow: 2px 5px 30px rgba(51, 51, 51, 0.5);
+    border-radius: 25px;
+    width: 100%;
+    height: 177px;
+    padding: 35px 35px 25px 25px;
+}
+
+.icons{
+    margin-top: 30px;
+    cursor: pointer;
+}
+.tele-icon{
+    width: 15px;
+    height: 15px;
+}
+
+.email-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.email{
+ padding-left: 0px;
+}
+
+
+.emai{
+    padding-left: 0%;
+}
+
+.emai li{
+ 
+ display: flex;
+ align-items: center;
+}
+
+span{
+    color: red;
+}
+
+
+
+@media (max-width: 1200px)  {
+    .container{
+        max-width: 1200px;
+        margin: auto;
+        width: 100%;
+    }
+    .box-cont{
+        width: 930px;
+       
+    }
+
+    .abyasnenie{
+        font-size: 14px ;
+    }
+
+    .question{
+        width: 483px;
+    }
+    
+    .tel{
+        width: 418px;
+        
+    }
+
+    input{
+        width: 100%;
+    }
+
+    .telephone{
+        width: 930px;
+    }
+
+    .social{
+        
+        height: 125px;
+        padding: px px 35px px;
+        
+    }
+
+    .icons{
+        margin-top: 5px;
+    }
+
+    .ent{
+       margin-left: auto;
+       margin-right: auto;
+    }
+
+}
+    
+
+
+
+
+
+
